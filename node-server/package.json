@@ -1,0 +1,22 @@
+{
+  "name": "3dsdrf-node-server",
+  "version": "1.0.0",
+  "description": "Node server for 3DSDRF project, handling WebRTC signaling and video streaming.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "three": "^0.132.2",
+    "canvas": "^2.8.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.4.4"
+  },
+  "author": "bgilbert1984",
+  "license": "MIT"
+}

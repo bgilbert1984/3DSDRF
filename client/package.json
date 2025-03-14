@@ -1,0 +1,22 @@
+{
+  "name": "3dsdrf-client",
+  "version": "1.0.0",
+  "description": "Client application for the 3DSDRF project.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.0.0",
+    "three": "^0.130.0",
+    "canvas": "^2.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^9.0.0"
+  },
+  "author": "bgilbert1984",
+  "license": "MIT"
+}
